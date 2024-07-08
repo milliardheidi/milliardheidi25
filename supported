@@ -1,0 +1,14 @@
+<canvas id="ex1" width="500" height="100" style="border: 1px solid #cccccc;">
+    HTML5 Canvas not supported
+</canvas><script>
+var canvas  = document.getElementById("ex1");
+var context = canvas.getContext("2d");
+
+context.font      = "36px Verdana";
+context.fillStyle = "#000000";
+context.fillText("HTML5 Canvas Text", 50, 50);
+
+context.font        = "normal 36px Arial";
+context.strokeStyle = "#000000";
+context.strokeText("HTML5 Canvas Text", 50, 90);
+</script>
